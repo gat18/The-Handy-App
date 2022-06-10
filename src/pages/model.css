@@ -1,0 +1,159 @@
+.model {
+  text-align: center;
+}
+
+.model-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .model-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.banner {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.model-cam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.model-link {
+  color: #61dafb;
+}
+
+@keyframes model-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box{
+  border: 3px solid navy;
+  background-color: rgb(191, 200, 219);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  margin-top: 70px;
+  margin-left:200px;
+  margin-right: 200px;
+  margin-bottom:100px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.displaytext{
+  margin-left: 660px;
+}
+h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+h1 span {
+  border-bottom: 3px solid rgb(5, 122, 143);
+  padding-bottom: 6px;
+}
+.textbox{
+  border: 3px solid navy;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  background-color: mintcream;
+  min-height: 440px;
+  min-width: 100px;
+}
+.textp{
+  font: 15px 'opensans-bold', sans-serif;
+  color: black;
+}
+.buttonspace{
+  border: 3px solid rgb(0, 0, 85) ;
+  background-color: rgb(101, 164, 223);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding-top: 20px;
+  display:flex; 
+  flex-direction:row;
+}
+
+/* CSS */
+.button {
+  background: navy;
+  border: 1px solid navy;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: navy;
+}
+
+.button:active {
+  opacity: .5;
+}
+
+
+.btn1{
+  margin-left: 20px;
+}
+
+.modetitle{
+  border: 3px solid rgb(0, 0, 85) ;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+}
+
+.btnM{
+  margin-left: 50px;
+}
+.btnA{
+  margin-left: 80px;
+}
+.btn2{
+  margin-left: 50px;
+}
+
+.btn3{
+  margin-left: 20px;
+  margin-right: 20px;
+}
