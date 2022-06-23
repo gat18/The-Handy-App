@@ -24,6 +24,7 @@ npm start
 
 ### 4. Press the 'Get Started' button to be directed to the Keyboard UI
 
+## Welcome Page
 The web browser that opens when the app has been locally deployed should look the same as figure below.
 
 ![img](https://github.com/gat18/The-Handy-App/blob/master/public/images/dispersedland.PNG?raw=true)
