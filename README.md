@@ -20,7 +20,7 @@ npm start
 ### 3. Install the `Moesif CORS \& CORS Changer' extension for your web browser
   - Turn on when using app
 
-### 4. Press any of the `Get Started' or `Start' buttons to be directed to the Keyboard UI
+### 4. Press the 'Get Started' button to be directed to the Keyboard UI
 
 The web browser that opens when the app has been locally deployed should look the same as figure below.
 
