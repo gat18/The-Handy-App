@@ -5,8 +5,10 @@
 <h2>FYP - Hand Gesture-Based Keyboard for the Blind - Gordon Thompson</h2>
 
 
-<p>This repository has been created to host the app files for my FYP. The instructions for the installation and operation of the App can be found in the User Guide Chapter of my Report.</p>
+<p>This repository has been created to host the app files for my FYP. The instructions in full for the installation and operation of the App can be found in the User Guide Chapter of my Report. Steps are provided below as well.</p>
 
+<p>The following is a link to my FYP report.</p>
+[https://www.google.com](https://drive.google.com/file/d/1OJ_ZCIWk0xi0tZocX71KC1gOcBuWeA0q/view?usp=sharing)
 
 ## Steps to Run the App
 ### 1. Clone the project
