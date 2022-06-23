@@ -230,48 +230,48 @@ ul#nav li.current a { color: #fe6928; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#userguide {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#userguide a, #userguide a:visited  { color: #0762f9; }
+#userguide a:hover, #userguide a:focus { color: #313131; }
 
-#resume h1 {
+#userguide h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#userguide h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
 }
-#resume h3 {
+#userguide h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#userguide .header-col { padding-top: 9px; }
+#userguide .main-col { padding-right: 10%; }
 
-.education, .work {
+.motivation, .tips, .instructions, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#userguide .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#userguide .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#userguide .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -1017,8 +1017,14 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #358fe4 !important;
 }
 .github-btn{
    background-color: #34495e !important;
+}
+.start-btn{
+   background-color: #066e25 !important;
+}
+.start2-btn{
+   background-color: #43af63 !important;
 }

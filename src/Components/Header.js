@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
+    const report = this.props.data.report;
+    const demo = this.props.data.demo;
+    const model = this.props.data.model;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg num={1000} type="lines" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -37,21 +39,13 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
+              <a className="smoothscroll" href="#userguide">
+                User Guide
               </a>
             </li>
 
-            <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
+            <li >
+              <NavLink to="/model">Start</NavLink>
             </li>
           </ul>
         </nav>
@@ -67,16 +61,26 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href={report} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Report
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href={demo} className="button btn github-btn">
+                  <i className="fa fa-video-camera "></i>Demo
                 </a>
+              </ul>
+            </Fade>
+            <Fade bottom duration={2000}>
+              <ul className="social">
+              <NavLink to="/model">
+                <a href={model} className="button btn start-btn">
+                  <i className="fa fa-thumbs-o-up"></i>Get Started
+                </a>
+                </NavLink>
               </ul>
             </Fade>
           </div>
         </div>
+        
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
