@@ -6,3 +6,13 @@
 
 
 <p>This repository has been created to host the app files for my FYP. The instructions for the installation and operation of the App can be found in the User Guide Chapter of my Report.</p>
+
+
+# Run Project
+### 1. Clone the project
+
+### 2. Run the project
+```shell
+npm i
+npm start
+```
