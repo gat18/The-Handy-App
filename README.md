@@ -16,3 +16,5 @@
 npm i
 npm start
 ```
+
+![img](https://github.com/gat18/The-Handy-App/blob/master/public/images/dispersedland.PNG?raw=true)
