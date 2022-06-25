@@ -12,7 +12,7 @@ const availableModels = {
 	modelOne: {
 		name: "modelOne",
 		url: 'http://handynumber.s3.eu-gb.cloud-object-storage.appdomain.cloud/model.json',
-		counterModulo: 10,
+		counterModulo: 10, 	//Change value for different computer GPU speeds - Set for mine
 		accuracyThreshold: 0.9,
 		boxId: 2,
 		classId: 1,
@@ -21,8 +21,8 @@ const availableModels = {
 	modelTwo: {
 		name: "modelTwo",
 		url: 'http://handylettersandspecial.s3.eu-gb.cloud-object-storage.appdomain.cloud/model.json',
-		counterModulo: 6,
-		accuracyThreshold: 0.8,
+		counterModulo: 6, 	//Change value for different computer GPU speeds - Set for mine
+		accuracyThreshold: 0.75,
 		boxId: 2,
 		classId: 5,
 		scoreId: 1
@@ -30,8 +30,8 @@ const availableModels = {
 	modelThree: {
 		name: "modelThree",
 		url: 'http://handycombined.s3.eu-gb.cloud-object-storage.appdomain.cloud/model.json',
-		counterModulo: 4,
-		accuracyThreshold: 0.7,
+		counterModulo: 4, 	//Change value for different computer GPU speeds - Set for mine
+		accuracyThreshold: 0.75,
 		boxId: 1,
 		classId: 6,
 		scoreId: 0
