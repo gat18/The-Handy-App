@@ -4,7 +4,7 @@
     "description":"Handy is a Hand Gesture Based Keyboard for the Blind. It is controlled through the use of American Sign Language (ASL) gestures",
     "image":"Profile Pic.png",
     "bio":"Through real-time detection, Handy uses our custom object detection model that is capable of recognising over 42 different gestures. These include 0-9, A-Z and 6 special characters: enter, delete, space, number mode, lower-case and upper-case mode",
-    "demo":"",
+    "demo":"https://www.youtube.com/watch?v=F28SL2BvhG8&t=7s",
     "report":"https://drive.google.com/file/d/1JY7Y3hR1ITben53HJBGzrpt-SlX4gCKi/view?usp=sharing",
     "model":"",
     
