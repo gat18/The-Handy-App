@@ -47,7 +47,7 @@ export {labelMap}
 
 
 export const drawRect = (model, boxes, classes, scores, threshold, imgWidth, imgHeight, ctx)=>{
-    //Animation ontop of webcame frame
+    //Animation ontop of webcam frame
     for(let i=0; i<=boxes.length; i++){
         if(boxes[i] && classes[i] && scores[i]>threshold){
             
@@ -69,6 +69,8 @@ export const drawRect = (model, boxes, classes, scores, threshold, imgWidth, img
         }
     }
 }
+//Reference: original drawRect function from 'https://github.com/nicknochnack/TFODApp'. Has been edited and expanded on to work for this project 
+//Function is just a simple drawing rectangle function
 
 export const getChar = (model, mode, classes, scores, threshold) => {
      if(scores[0] > threshold ){
